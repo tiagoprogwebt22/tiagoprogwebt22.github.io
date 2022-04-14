@@ -52,6 +52,10 @@ header {
     /* Deixar o cabeçalho fixo */
     position: sticky;
     top: 0;
+
+    /* Ajuste de profundidade (eixo Z)
+    Quanto maior, mais à frente fica */
+    z-index: 1000;
 }
 
 /* Regra para um elemento (no caso, uma div) com
@@ -112,6 +116,8 @@ nav h2 a:focus,
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: whitesmoke;
 }
 
 /* Esta regra somente irá funcionar
